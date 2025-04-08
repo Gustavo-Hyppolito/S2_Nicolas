@@ -47,6 +47,6 @@ def cassino():
         continuar = input("Deseja jogar novamente? (sim/não): ").lower()
         if continuar != "sim":
             input(f"Obrigado por jogar. Seu saldo final foi R$ {saldo:.2f}")
-            def
+         
 # Inicia o jogo
 cassino()
