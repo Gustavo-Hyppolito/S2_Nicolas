@@ -32,11 +32,11 @@ def cassino():
         numero_sorteado = random.randint(1, 10)
         print(f"A roleta girou e caiu no número: {numero_sorteado}")
 
-        if numero_escolhido == numero_sorteado:
+        else if numero_escolhido == numero_sorteado:
             ganho = aposta * 5
             saldo += ganho
-            print(f"Parabéns! Você ganhou R$ {ganho:.2f}")
-        else:
+            print(input(f"Parabéns! Você ganhou R$ {ganho:.2f}"))
+        if:
             saldo -= aposta
             print(f"Você perdeu R$ {aposta:.2f}")
 
